@@ -58,8 +58,12 @@ function generatePassword() {
   var numeric = document.getElementById("numberyes").checked;
   var special = document.getElementById("specialyes").checked;
   var length = document.getElementById("pwLength").value;
+  var checkedErrorMsg = document.getElementById("checkederrormsg");
+  var lengthErrorMsg = document.getElementById("outofrangeerrormsg");
   var numberSelectedTypes = 0;
   var selectedCharacterTypes = [];
+  var invalidSelection = false;
+  var invalidLength = false;
 
   if (lowercase) {selectedCharacterTypes.push("lower");};
   if (uppercase) {selectedCharacterTypes.push("upper");};
@@ -68,11 +72,34 @@ function generatePassword() {
 
   numberSelectedTypes = selectedCharacterTypes.length;
 
-  //loop for the number of characters chosen, appending a random character of a random (but selected) type to the end of "password"
-  for (var i = 0; i < length; i++) {
-    console.log(generateChar(selectedCharacterTypes[getRandomIntInclusive(0,numberSelectedTypes-1)]));
-    password = password.concat(generateChar(selectedCharacterTypes[getRandomIntInclusive(0,numberSelectedTypes-1)]));
-    console.log(password + "  " + i);
+  //make sure the length is valid
+  if (length > 128 || length < 8) {
+    invalidLength = true;
+    lengthErrorMsg.style.display = "block";  //show the outofrange error message  
+  } else {
+    lengthErrorMsg.style.display = "none";
+  };
+
+  //make sure they select >0 options
+  if (numberSelectedTypes === 0){
+    invalidSelection = true;
+    checkedErrorMsg.style.display = "block";  //show the no-options-checked error message
+  } else {
+    checkedErrorMsg.style.display = "none";
+  };
+  
+  
+  if (!invalidSelection && !invalidLength){
+    
+    lengthErrorMsg.style.display = "none";
+    //hide the outofrange error message
+    lengthErrorMsg.style.display = "none";
+    //loop for the number of characters chosen, appending a random character of a random (but selected) type to the end of "password"
+    for (var i = 0; i < length; i++) {
+      console.log(generateChar(selectedCharacterTypes[getRandomIntInclusive(0,numberSelectedTypes-1)]));
+      password = password.concat(generateChar(selectedCharacterTypes[getRandomIntInclusive(0,numberSelectedTypes-1)]));
+      console.log(password + "  " + i);
+    }
   }
   return password;
 }

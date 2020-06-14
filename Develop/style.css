@@ -132,7 +132,7 @@ button[disabled] {
 
 .options div {
   line-height: 2;
-  width: 240px; 
+  width: 300px; 
   text-align: right;
   margin: 0px auto;
 }
@@ -141,6 +141,13 @@ button[disabled] {
   font-family: Consolas, Lucida Console, monospace;
 }
 
+
+.errormsg {
+  text-align: center;
+  background-color: #ffb3b3;
+  display: none;
+  margin-top: 10px;
+}
 
 
 @media (max-width: 690px) {
@@ -157,13 +164,14 @@ button[disabled] {
   .card {
     padding-top: 5px;
   }
+  .options {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
   }
-  .options {
-    font-size: 14px;
-  }
+
 }

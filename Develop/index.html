@@ -21,6 +21,12 @@
       <div class="card-body">
         <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
       </div>
+      <div class="errormsg" id="checkederrormsg">
+        You must select at least one option!
+      </div>
+      <div class="errormsg" id="outofrangeerrormsg">
+        You must choose a Password Length between 8 and 128!
+      </div>
       <div class="options" id="options">
         <p>Choose yes or no to include or exclude each option: </p>
         <div>
@@ -36,7 +42,7 @@
           <label for="specialyes">Special Characters: </label>
           <input type="checkbox" id="specialyes" name="special" value="yes" checked="yes">
           <br>
-          <label for="pwLength">Password Length: </label>
+          <label for="pwLength">Password Length (8-128): </label>
           <input type="number" id="pwLength" name="pwLength" value="8" min="8" max="128" size="3">
         </div>
       </div>
