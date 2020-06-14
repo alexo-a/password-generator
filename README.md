@@ -22,19 +22,20 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+<!--
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
+[![Issues][issues-shield]][issues-url]-->
 
 
 
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT LOGO 
 <br />
 <p align="center">
   <a href="https://github.com/alexo-a/password-generator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a>-->
 
   <h3 align="center">Password Generator</h3>
 
@@ -73,9 +74,9 @@
 
 [![Password Generator Screen Shot][product-screenshot]](https://github.com/alexo-a/password-generator/tree/master/assets/FinalScreenshot.PNG)
 
-Here's a blank template to get started:
+<!--Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`alexo-a`, `password-generator`, `twitter_handle`, `email`
+`alexo-a`, `password-generator`, `twitter_handle`, `email`-->
 
 
 ### Built With
