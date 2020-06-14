@@ -36,10 +36,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Password Generator</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    A simple webpage to create a password of your chosen length using your choice of uppercase and lowercase letters, numbers, or special characters, or any combination thereof.
     <br />
     <a href="https://github.com/alexo-a/password-generator"><strong>Explore the docs »</strong></a>
     <br />
@@ -62,7 +62,7 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
+<!--* [License](#license)-->
 * [Contact](#contact)
 <!--* [Acknowledgements](#acknowledgements)-->
 
@@ -120,10 +120,10 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
+<!-- LICENSE 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.-->
 
 
 
@@ -150,15 +150,15 @@ Project Link: [https://github.com/alexo-a/password-generator](https://github.com
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/alexo-a/password-generator/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/alexo-a/password-generator/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/alexo-a/password-generator/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/alexo-a/password-generator/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+<!--[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt-->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
