@@ -63,16 +63,14 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-<!--* [License](#license)-->
 * [Contact](#contact)
-<!--* [Acknowledgements](#acknowledgements)-->
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Password Generator Screen Shot][product-screenshot]](https://github.com/alexo-a/password-generator/tree/master/assets/FinalScreenshot.PNG)
+![Password Generator Screen Shot](https://github.com/alexo-a/password-generator/blob/master/assets/FinalScreenshot.PNG)
 
 <!--Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
