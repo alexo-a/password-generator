@@ -45,7 +45,7 @@
     <a href="https://github.com/alexo-a/password-generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/alexo-a/password-generator">View Demo</a>
+    <a href="https://alexo-a.github.io/password-generator/">View Deployed Application</a>
     ·
     <a href="https://github.com/alexo-a/password-generator/issues">Report Bug</a>
     ·
@@ -93,7 +93,9 @@
 <!--Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.-->
 
 Using this project is a breeze! Simply click the Choose Password Options button, select the character 
-types you'd like to use and specify a password length (between 8 and 128), and click Generate Password!
+types you'd like to use and specify a password length (between 8 and 128), and click Generate Password!  
+
+Note that the special characters available are listed [here](https://owasp.org/www-community/password-special-characters).
 
 <!--_For more examples, please refer to the [Documentation](https://example.com)_-->
 
