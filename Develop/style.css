@@ -122,8 +122,24 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+/* center the options section and hide it (initially) */
+.options {
+  width: 75%;
+  margin: 20px auto;
+  text-align: center;
+  display: none;
+}
 
+.options div {
+  line-height: 2;
+  width: 240px; 
+  text-align: right;
+  margin: 0px auto;
+}
 
+#pwLength {
+  font-family: Consolas, Lucida Console, monospace;
+}
 
 
 
@@ -147,5 +163,7 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
-
+  .options {
+    font-size: 14px;
+  }
 }
